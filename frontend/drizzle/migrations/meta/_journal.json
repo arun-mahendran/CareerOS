@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791884461075,
+      "tag": "0000_roadmap_status_and_prefs",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791884499635,
+      "tag": "0001_roadmap_study_logs",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791952445704,
+      "tag": "0002_user_skills",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791953195294,
+      "tag": "0003_learning_resource_progress",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791953588787,
+      "tag": "0004_interview_sessions",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791984315141,
+      "tag": "0005_user_roles",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1791984338027,
+      "tag": "0006_grant_admin_on_confirm",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793179841441,
+      "tag": "0007_calendar_events",
+      "breakpoints": true
+    }
+  ]
+}
