@@ -26,4 +26,9 @@ describe("live job catalog", () => {
     expect(job.responsibilities).toEqual(["Build APIs"]);
     expect(job.portal).toBe("https://example.com/apply");
   });
+
+  it("preserves the published employment type when available", () => {
+    const job = toCatalogJob({ ...liveJob, employment_type: "Full-time" });
+    expect(job.employmentType).toBe("Full-time");
+  });
 });

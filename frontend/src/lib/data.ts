@@ -5,6 +5,7 @@ export type Job = {
   location: string;
   mode: "Remote" | "Hybrid" | "On-site" | "Not specified";
   level: "Intern" | "Entry" | "Associate" | "Not specified";
+  employmentType?: string | null;
   salary: string;
   posted: string;
   /** Null unless a real, explained match calculation is available. */

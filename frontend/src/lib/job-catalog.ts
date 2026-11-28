@@ -17,6 +17,7 @@ export function toCatalogJob(j: LiveJob): Job {
     location: j.location || "Not specified",
     mode,
     level: intern ? "Intern" : associate ? "Associate" : j.level.toLowerCase().includes("entry") ? "Entry" : "Not specified",
+    employmentType: j.employment_type,
     salary: j.salary ?? "Not specified",
     posted: new Date(j.posted_at_known ? j.posted_at : seen).toLocaleDateString(),
     match: null,
